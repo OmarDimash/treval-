@@ -1,0 +1,84 @@
+/* Установка шрифтов */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Заголовок сайта */
+  h1 {
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Главное меню */
+  .navbar {
+    background-color: #f5f5f5;
+    padding: 10px;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .navbar li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .navbar a:hover {
+    color: #f44336;
+  }
+  
+  /* Секция о Стамбуле */
+  #about {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #about h2 {
+    color: #333;
+  }
+  
+  #about p {
+    color: #666;
+  }
+  
+  /* Фотографии */
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .gallery img {
+    width: 30%;
+    margin-bottom: 20px;
+  }
+  
+  /* Футер */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Ссылки в футере */
+  footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
